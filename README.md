@@ -8,7 +8,7 @@ Um jogo simples de Jokenpô (Pedra, Papel e Tesoura) desenvolvido para se divert
 
 O Jokenpô é um jogo clássico onde você pode escolher entre três opções: Pedra, Papel ou Tesoura. O objetivo é vencer a máquina escolhendo a opção que ganha da escolha dela.
 <br>
-[**Acesse o Portfólio**](https://fernandojesuss.github.io/jokenpo/)
+[**Acesse o Portfólio**](https://pjt-jokenpoo.netlify.app/)
 
 
 <div align="center">
