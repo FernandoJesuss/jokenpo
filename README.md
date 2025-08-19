@@ -2,7 +2,6 @@
 
 <h2 align="center">Site Jokenpô </h2>
 
-Um jogo simples de Jokenpô (Pedra, Papel e Tesoura) desenvolvido para se divertir e testar suas habilidades contra a máquina!
 
 ## Descrição
 
