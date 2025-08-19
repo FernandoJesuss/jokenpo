@@ -13,9 +13,9 @@ O Jokenpô é um jogo clássico onde você pode escolher entre três opções: P
 
 <div align="center">
   
-<img src="https://github.com/user-attachments/assets/a5579da2-5f3a-4f12-8497-9fef3581e999" alt="jokenpo" width="800" height="600">
+<img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/pc_jokenpoo.png" width="800" height="600">
 
-
+<img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/pc_jokenpoo.png" width="300" height="600">
 </div>
 
 
