@@ -1,54 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jokenpô</title>
     <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Jokenpoo</title>
 </head>
+
 <body>
+
     <div class="game-container">
-        <h1>Jokenpô</h1>
-        <div class="result"></div>
-        <div class="scores">
-            <div id="human-score">0</div>
-            <div id="machine-score">0</div>
-        </div>
-        <div class="choices">
-            <div onclick="playHuman('rock')" class="choice">
-                <img class="jk" src="./src/img/oncoming fist.png" alt="Pedra">
+        <h1>🎮 Jokenpô</h1>
+        <p class="subtitle">Pedra, Papel, Tesoura</p>
+
+        <div class="score-board">
+            <div class="score-item">
+                <div class="score-label">Você</div>
+                <div class="score-value" id="playerScore">0</div>
             </div>
-            <div onclick="playHuman('paper')" class="choice">
-                <img class="jka" src="./src/img/hand with fingers splayed.png" alt="Papel">
+            <div class="score-item">
+                <div class="score-label">Empates</div>
+                <div class="score-value" id="tieScore">0</div>
             </div>
-            <div onclick="playHuman('scissors')" class="choice">
-                <img class="jkv" src="./src/img/victory hand.png" alt="Tesoura">
-            </div>
-        </div>
-        <div class="selected-choices">
-            <div class="human-choice">
-                <h2>Sua Escolha:</h2>
-                <img id="human-img" src="./src/img/giragira1.gif" alt="">
-            </div>
-            
-            <div class="machine-choice">
-                <h2>Escolha da Máquina:</h2>
-                <img id="machine-img" src="./src/img/giragira1.gif" alt="">
+            <div class="score-item">
+                <div class="score-label">Máquina</div>
+                <div class="score-value" id="computerScore">0</div>
             </div>
         </div>
-        
-        <button class="bto" onclick="resetGame()">Reiniciar Jogo</button>
+
+        <div class="game-area">
+            <div class="player-section">
+                <div class="player-choice" id="playerChoice">❓</div>
+                <div style="font-weight: 600; color: #4a5568;">Sua Escolha</div>
+            </div>
+            <div class="vs-divider">VS</div>
+            <div class="player-section">
+                <div class="player-choice" id="computerChoice">❓</div>
+                <div style="font-weight: 600; color: #4a5568;">Máquina</div>
+            </div>
+        </div>
+
+        <div class="choices-grid">
+            <button class="choice-btn rock" onclick="playGame('rock')">
+                ✊
+                <span class="choice-label">Pedra</span>
+            </button>
+            <button class="choice-btn paper" onclick="playGame('paper')">
+                ✋
+                <span class="choice-label">Papel</span>
+            </button>
+            <button class="choice-btn scissors" onclick="playGame('scissors')">
+                ✌️
+                <span class="choice-label">Tesoura</span>
+            </button>
+        </div>
+
+        <div class="result-message" id="resultMessage">Escolha sua jogada para começar!</div>
+
+        <button class="reset-btn" onclick="resetGame()">Reiniciar Jogo</button>
+
+        <div class="game-instructions">
+            <div class="instructions-title">Como jogar:</div>
+            <div class="instructions-text">
+                Pedra vence Tesoura • Papel vence Pedra • Tesoura vence Papel<br>
+                Escolha sua jogada e veja se consegue derrotar a máquina!
+            </div>
+        </div>
     </div>
-
-    <div class="images">
-        
-        <img class="emo" src="./src/img/hum.gif" alt="Humano" />
-        <img src="./src/img/robot.gif" alt="Robô" />
-    </div>
-
-
-
-
     <script src="./src/javacript/script.js"></script>
 </body>
+
 </html>
