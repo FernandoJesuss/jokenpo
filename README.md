@@ -10,20 +10,10 @@ O Jokenpô é um jogo clássico onde você pode escolher entre três opções: P
 <br>
 [**Acesse o Portfólio**](https://pjt-jokenpoo.netlify.app/)
 
-
-<div align="center">
-  
-<img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/pc_jokenpoo.png" width="800" height="600">
-
-<img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/pc_jokenpoo.png" width="300" height="600">
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/pc_jokenpoo.png" width="400" height="300">
+  <img src="https://github.com/FernandoJesuss/jokenpo/blob/main/src/img/smartphone_jokenpoo.png" width="150" height="300">
 </div>
-
-
-
-
-
-
-
 
 ## Funcionalidades
 
